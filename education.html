@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: #383428;
+            padding-top: 80px;
+            color: white;
+        }
+
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 20px 10%;
+            background: transparent;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 100;
+        }
+
+        .logo {
+            font-size: 20px;
+            color: whitesmoke;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .navbar a {
+            font-size: 18px;
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            margin-left: 35px;
+        }
+
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #ffefd5;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .education {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .education .item {
+            background: #836953;
+            border-radius: 10px;
+            padding: 15px;
+            width: 22%; /* Adjusts to fit in one row */
+            text-align: center;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .education .item img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        .education .item:hover {
+            transform: translateY(-10px);
+            background: #383428;
+        }
+
+        .home-sci {
+            margin-top: 40px;
+            text-align: center;
+        }
+
+        .social-links a {
+            font-size: 30px;
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+
+        .social-links a:hover {
+            color: #ffefd5;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">DAS Profile.</a>
+        <nav class="navbar">
+            <a href="index.html" class="active">Home</a>
+            <a href="about.html" class="active">About Me</a>
+            <a href="education.html" class="active">Education</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1>My Education</h1>
+        <div class="education">
+            <div class="item">
+                <img src="1.jpeg" alt="SK St. Luke">
+                <h2>SK St. Luke</h2>
+                <p>Year: 2011-2016</p>
+                <p>UPSR: 2A 1B 2C 1D 2E</p>
+            </div>
+            <div class="item">
+                <img src="2.jpeg" alt="SMK Sri Aman">
+                <h2>SMK Sri Aman</h2>
+                <p>Year: 2017-2020</p>
+                <p>PT3: 1A 5C 2E</p>
+            </div>
+            <div class="item">
+                <img src="3.jpeg" alt="SMK St. Mary">
+                <h2>SMK St. Mary</h2>
+                <p>Year: 2021-2022</p>
+                <p>SPM: 1A 5B 2C</p>
+            </div>
+            <div class="item">
+                <img src="4.jpeg" alt="Universiti Teknologi Mara">
+                <h2>Universiti Teknologi Mara</h2>
+                <p>Diploma in Information Management</p>
+                <p>Year: 2022 - Current</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="home-sci">
+        <div class="social-links">
+            <a href="https://www.instagram.com/dhealaynaa?igsh=MWpuNHpobXpnYzhhbA==" target="_blank" title="Instagram">
+                <i class='bx bxl-instagram'></i>
+            </a>
+            <a href="https://discord.com/users/@dhealayna_690111" target="_blank" title="Discord">
+                <i class='bx bxl-discord-alt'></i>
+            </a>
+            <a href="https://www.tiktok.com/@l4ynaasofie?_t=8rkUJDMAj4b&_r=1" target="_blank" title="TikTok">
+                <i class='bx bxl-tiktok'></i>
+            </a>
+        </div>
+    </div>
+</body>
+</html>

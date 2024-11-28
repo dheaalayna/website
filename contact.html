@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+        background: #383428;
+        padding-top: 80px; 
+        color: white;
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        min-height: 100vh; 
+        color: white;
+        padding-top: 80px; 
+    }
+
+    .header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 20px 10%;
+        background: transparent;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 100;
+    }
+
+    .logo {
+        font-size: 20px;
+        color: whitesmoke; 
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+    .navbar a {
+        font-size: 18px;
+        color: white; 
+        text-decoration: none;
+        font-weight: 500;
+        margin-left: 35px;
+    }
+
+    .navbar a:hover {
+        text-decoration: underline;
+    }
+            
+    .home-sci {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .home-sci a {
+        color: white;
+        font-size: 24px;
+        text-decoration: none;
+        opacity: 0.8;
+        transition: transform 0.3s, opacity 0.3s;
+    }
+
+    .home-sci a:hover {
+        transform: scale(1.1); 
+        opacity: 1;
+    }
+    .container {
+        max-width: 800px;
+        display: grid;
+        justify-content: center; 
+        align-items: center; 
+        text-align: center;
+        background-color: #836953;
+        box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.19);
+        margin: 0 auto; 
+        padding: 80px; 
+        height: auto; 
+    }
+
+    }
+
+    h1 {
+        color: white; 
+        margin-bottom: 20px;
+    }
+
+    a {
+        display: inline-block;
+        padding: 10px 20px;
+        background: transparent;
+        color: white; 
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 5px;
+        transition: background 0.3s ease-in-out;
+    }
+
+    a:hover {
+        background: transparent;
+    }
+            .btn-box {
+            margin-top: 20px;
+        }
+
+        .btn-box a {
+            background-color: white;
+            color: darkslategrey;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-weight: 500;
+            border-radius: 5px;
+        }
+
+        .btn-box a:hover {
+            background-color: lightgray;
+        }
+</style>
+
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">DAS Profile.</a>
+        <nav class="navbar">
+            <a href="index.html" class="active">Home</a>
+            <a href="about.html" class="active">About Me</a>
+            <a href="education.html" class="active">Education</a>
+            <a href="interest.html">Interest</a>
+            <a href="gallery.html">Gallery</a>
+        </nav>
+    </header>
+    <div class="container">
+        <h1>Contact Me</h1>
+        <p>Email: dhealayna@gmail.com</p>
+        <p>Phone: +6010-395-8155</p>
+    <div class="btn-box">
+        <a href="cv.pdf" download>Download My CV</a>
+    </div>
+        <div class="home-sci">
+            <div class="social-links">
+        <a href="https://www.instagram.com/dhealaynaa?igsh=MWpuNHpobXpnYzhhbA==" target="_blank" title="Instagram">
+            <i class='bx bxl-instagram'></i>
+        </a>
+        <a href="https://discord.com/users/@dhealayna_690111" target="_blank" title="Discord">
+            <i class='bx bxl-discord-alt'></i>
+        </a>
+        <a href="https://www.tiktok.com/@l4ynaasofie?_t=8rkUJDMAj4b&_r=1" target="_blank" title="TikTok">
+            <i class='bx bxl-tiktok'></i>
+        </a>
+    </div>
+        </div>
+    </div>
+</body>
+</html>

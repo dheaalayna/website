@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+            * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: #383428;
+            padding-top: 80px; 
+            color: white;
+        }
+
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 20px 10%;
+            background: transparent;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 100;
+        }
+
+        .logo {
+            font-size: 20px;
+            color: whitesmoke; 
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .navbar a {
+            font-size: 18px;
+            color: white; 
+            text-decoration: none;
+            font-weight: 500;
+            margin-left: 35px;
+        }
+
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+        
+        .home {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            text-align: left;
+            padding: 0 10%;
+        }
+        
+        .home-content {
+            max-width: 600px;
+        }
+        
+        .home-content h3 {
+            font-size: 35px;
+            font-weight: 600;
+            line-height: 1.0;
+            color: #8fbc8f;
+        }
+        
+                
+        .home-content p {
+            font-size: 16px;
+            margin: 20px 0 40px
+        }
+        
+        .btn-box {
+            margin-top: 20px;
+        }
+
+        .btn-box a {
+            background-color: white;
+            color: darkslategrey;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-weight: 600;
+            border-radius: 5px;
+        }
+
+        .btn-box a:hover {
+            background-color: lightgray;
+        }
+        
+        .home-sci {
+            position: absolute;
+            bottom: 40px;
+            display: flex;
+            gap: 15px;
+        }
+
+        .home-sci a {
+            color: white;
+            font-size: 24px;
+            text-decoration: none;
+        }
+
+        .home-sci a:hover {
+            color: #8fbc8f;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">DAS Profile.</a>
+        <nav class="navbar">
+            <a href="about.html" class="active">About Me</a>
+            <a href="education.html" class="active">Education</a>
+            <a href="interest.html">Interest</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <section class="home">
+        <div class="home-content">
+            <h3>Hi, I'm Dhea Alayna Sofea.</h3>
+            <p>I was born on 16th May 2004, which makes me 20 years old. Currently, I'm pursuing a Diploma in Information Management at University Teknologi MARA (UiTM).</p>
+            <div class="btn-box">
+                <a href="contact.html">Let's talk</a>
+            </div>
+        </div>
+        <div class="home-sci">
+            <div class="social-links">
+        <a href="https://www.instagram.com/dhealaynaa?igsh=MWpuNHpobXpnYzhhbA==" target="_blank" title="Instagram">
+            <i class='bx bxl-instagram'></i>
+        </a>
+        <a href="https://discord.com/users/@dhealayna_690111" target="_blank" title="Discord">
+            <i class='bx bxl-discord-alt'></i>
+        </a>
+        <a href="https://www.tiktok.com/@l4ynaasofie?_t=8rkUJDMAj4b&_r=1" target="_blank" title="TikTok">
+            <i class='bx bxl-tiktok'></i>
+        </a>
+    </div>
+        </div>
+    </section>
+</body>
+</html>
